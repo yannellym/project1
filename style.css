@@ -1,0 +1,213 @@
+.logobar {
+  height: 100px;
+  padding-bottom: 5px;
+}
+
+#logo1 {
+  width: 120px;
+  height: 100px;
+  padding-bottom: 5px;
+}
+
+#logo2 {
+  width: 120px;
+  height: 100px;
+  float: right;
+}
+
+#IcelandTitle {
+  padding-left: 50%;
+}
+
+.titleP {
+  font-size: 14px;
+}
+
+/* Pink Box */
+.pinkBox {
+  background-color: pink;
+  height: 600px;
+  border: solid black;
+  margin-right: 5%;
+  color: white;
+}
+
+#pinkImg1 {
+  width: 300px;
+  height: 200px;
+  border: solid purple;
+  margin-left: 10%;
+}
+
+#pinkImg1Cap {
+  margin-left: 10%;
+}
+
+#pinkImg2 {
+  width: 300px;
+  height: 200px;
+  border: solid purple;
+}
+
+#pinkImg1Des {
+  float: right;
+  width: 40%;
+  padding-right: 5%;
+  color: white;
+  line-height: 1.5;
+}
+
+#pinkImg2Des {
+  float: left;
+  width: 40%;
+  padding-left: 10%;
+  padding-top: 5%;
+  color: white;
+  line-height: 1.5;
+}
+
+.img2Block {
+  float: left;
+  margin-left: 85px;
+}
+
+/* Newsfeed */
+.newsP {
+  font-weight: lighter;
+  margin-left: 45px;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  font-weight: lighter;
+  line-height: 1.5;
+  width: 40%;
+}
+
+table td {
+  border: 2px solid white;
+}
+
+.green {
+  background-color: #03fd3d;
+  font-weight: bold;
+}
+
+#ticket {
+  background-color: #ff636e;
+}
+
+/* Contact us */
+.logos {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.contactP {
+  display: inline-block;
+  margin-left: 2%;
+  font-weight: lighter;
+}
+
+.insideContactUs {
+  display: flex;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  width: 90%;
+  margin-left: 9%;
+}
+
+.footer>p {
+  margin-left: 9%;
+  border-left: solid 2px;
+  padding-left: 2%;
+}
+
+/* Hiking HTML */
+.heading>h3 {
+  text-align: center;
+}
+
+.img-div {
+  display: flex;
+  height: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.img-div>img {
+  width: 350px;
+  height: 300px;
+  border: solid 2px;
+  margin-bottom: 3%;
+}
+
+.img-p {
+  border: solid blue 3px;
+  width: 350px;
+  height: 247px;
+  margin: 0px 2px;
+  overflow: auto;
+  background-color: #fff7e3;
+  padding: 2%;
+  line-height: 2;
+  text-align: center;
+}
+
+/* Page description */
+.pg-des {
+  padding-top: 3%;
+  padding-bottom: 7%;
+  line-height: 35px;
+}
+
+.img-p2 {
+  border: solid blue 3px;
+  width: 350px;
+  height: 254px;
+  margin: 0px 2px;
+  overflow: auto;
+  background-color: #fff7e3;
+  padding: 2% 5%;
+  line-height: 2;
+  text-align: left;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* contact us */
+#contactFormTitle {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 30px;
+}
+
+.contactForm {
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, #0dffaa, #0d51ff);
+  padding: 20px;
+  margin: 0px 30% 5% 30%;
+}
+
+input, textarea {
+  width: 90%;
+  margin: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+#button {
+  width: 70px;
+}
+
+#button:hover {
+  background-color: #03fd3d;
+}
